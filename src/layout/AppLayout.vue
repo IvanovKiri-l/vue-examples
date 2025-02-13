@@ -10,7 +10,7 @@ interface IRoutes {
 const routes = ref<IRoutes[]>([
   {
     url: '/todos',
-    name: 'Тудушки для Кирюшки'
+    name: 'Training'
   },
   {
     url: '/companies',

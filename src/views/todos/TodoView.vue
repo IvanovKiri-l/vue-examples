@@ -22,7 +22,7 @@ const handleDelete = (index: number) => {
   <Card>
     <template #title>
       <div class="flex flex-row justify-between">
-        <div class="text-3xl">Мои тудушки для Кирюшки</div>
+        <div class="text-3xl">To-Do</div>
         <Button icon="pi pi-plus" size="small" @click="handleAdd" />
       </div>
     </template>

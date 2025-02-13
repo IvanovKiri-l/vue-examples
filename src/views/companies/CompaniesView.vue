@@ -70,7 +70,8 @@ const calcCountByLetter = (letter: string) => {
         <tbody>
           <tr v-for="(t, i) in sortedCompanies" v-bind:key="i">
             <td class="text-center border-green-300">{{ i }}</td>
-            <td class="text-center border-green-300">{{ t.id }}</td>
+            <td class="text-center border-green-300">{{ t.id
+              }}</td>
             <td class="text-center border-green-300">{{ t.name }}</td>
           </tr>
         </tbody>
