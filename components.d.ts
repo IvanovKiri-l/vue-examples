@@ -13,6 +13,8 @@ declare module 'vue' {
     ConfirmDialog: typeof import('primevue/confirmdialog')['default']
     DarkLightToggler: typeof import('./src/components/DarkLightToggler.vue')['default']
     DarkLightTogler: typeof import('./src/components/DarkLightTogler.vue')['default']
+    Divider: typeof import('primevue/divider')['default']
+    Form: typeof import('@primevue/forms/form')['default']
     HelloWorld: typeof import('./src/components/HelloWorld.vue')['default']
     IconCommunity: typeof import('./src/components/icons/IconCommunity.vue')['default']
     IconDocumentation: typeof import('./src/components/icons/IconDocumentation.vue')['default']
