@@ -46,6 +46,7 @@ const routes = ref<IRoutes[]>([
 <style scoped>
 .container {
   margin: 0 auto;
-  width: 1440px;
+  width: 2500px;
+  height: 1000px;
 }
 </style>
